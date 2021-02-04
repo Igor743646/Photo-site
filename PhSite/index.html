@@ -1,0 +1,95 @@
+<!--
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Черновик</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100&subset=cyrillic,latin">
+    <script type="text/javascript">
+      var m_id = new Array('s_mn_1');
+      listStart = function allclose() {
+        for (i=0; i < m_id.length; i++){
+        document.getElementById(m_id[i]).style.display = "none";
+        }
+      }
+      function menuOpen(id){
+        for (i=0; i < m_id.length; i++){
+        if (id != m_id[i]){
+        document.getElementById(m_id[i]).style.display = "none";
+        }
+        }
+        if (document.getElementById(id).style.display == "block"){
+        document.getElementById(id).style.display = "none";
+        }else{
+        document.getElementById(id).style.display = "block";
+        }
+      }
+      window.onload=listStart;
+    </script>
+  </head>
+
+  <div id="m_body">
+    <ul>
+    <li><a href="//yraaa.ru/" onclick="menuOpen('s_mn_1');return(false)">Пункт №1</a>
+      <ul id="s_mn_1">
+        <li><a href="//yraaa.ru/">Подпункт меню №1</a></li>
+        <li><a href="//yraaa.ru/">Подпункт меню №2</a></li>
+        <li><a href="//yraaa.ru/">Подпункт меню №3</a></li>
+        <li><a href="//yraaa.ru/">Подпункт меню №4</a></li>
+        <li><a href="//yraaa.ru/">Подпункт меню №5</a></li>
+        <li><a href="//yraaa.ru/">Подпункт меню №6</a></li>
+      </ul>
+    </li>
+
+    </ul>
+  </div>
+
+</html> -->
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GLphotos.com</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100&subset=cyrillic,latin">
+  </head>
+
+  <body>
+    <!-- Шляпа сайта -->
+    <header class = "Big_container">
+      <div class = "Author_name"><p class = "Flag">IGOR GL.</p></div>
+      <div class = "City"><p class = "Flag">Dmitrov City</p></div>
+    </header>
+
+    <!-- Меню -->
+    <section class = "Big_container Menu">
+      <nav class = "List">
+        <a href = "About_author.html" id = "Selected">Об авторе</a>
+        <a href = "Landscapes.html">Пейзажи</a>
+        <a href = "Portrets.html">Портреты</a>
+        <a href = "Street_photos.html">Стрит</a>
+        <a href = "Anything.html">Другое</a>
+      </nav>
+    </section>
+
+    <!-- Тело с фото -->
+    <section class = "Big_container Body">
+      <section class = "Foto_container">
+        
+      </section>
+    </section>
+
+    <!-- Нижнее меню и ссылки -->
+    <footer class = "Big_container">
+      <small>2020 &copy; Designed by Igor Glushatov - Официальный сайт: GLphotos.com +7 (985) 024-31-14</small>
+      <nav class="teasert">
+        <a><img src="вклого.png"></a>
+        <a><img src="фэйслого.png"></a>
+        <a><img src="инстлого.png"></a>
+        <a><img src="твитлого.png"></a>   
+      </nav>
+
+    </footer>
+  </body>
+</html>

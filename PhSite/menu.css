@@ -1,0 +1,96 @@
+
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.Top_Menu > li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.Top_Menu > li:last-child {
+  text-align: center;
+  margin-right: 0;
+}
+
+a {
+  display: block;
+  margin: 15px 0;
+  padding: 5px 5px;
+  text-decoration: none;
+  outline: none;
+
+}
+.fa {
+  color: black;
+  padding-left: 10px;
+}
+
+.Menu {
+  background-color: white;
+
+  border-top: solid;
+  border-bottom: solid;
+
+  padding: 0px 90px 0px 90px;
+
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Sub_Menu {
+  position: absolute;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+  top: 100%;
+  left: 0;
+  width: 95%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.Menu ul {
+  background: white;
+}
+
+.Menu .Sub_Menu {
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: white;
+}
+
+.Menu ul li:hover .Sub_Menu {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+.Menu ul a {
+  color: black;
+}
+
+.Sub_Menu li a {
+  margin: 5px 0;
+  color: black;
+}
+
+.Sub_Menu li:before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 80%;
+  margin: 0 auto;
+ 
+  background-color: grey;
+}

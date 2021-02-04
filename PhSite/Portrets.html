@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GLphotos.com</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <LINK rel="stylesheet" href="menu.css" type="text/css" />
+    <!-- <link rel="stylesheet" type="text/css" href="About_author.css"> -->
+    <link rel="stylesheet" type="text/css" href="Photos_sites.css"> <!-- css для страниц с фото -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> <!-- шрифт PT Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"> <!-- шрифт PT Serif -->
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100&subset=cyrillic,latin">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/photo_loader.js"></script> <!-- открывание фото на весь экран -->
+    <script type="text/javascript" src="scripts/preloader.js"></script> <!-- прелоадер сайта -->
+    <script type="text/javascript" src="scripts/photo_preloader.js"></script> <!-- параллельная загрузка фото -->
+  </head>
+
+  <body>
+    <!-- Прелоадер -->
+    <div id="p_prldr">
+      <div class="contpre">
+        <span class="svg_anm"></span>
+        <br>Wait loading<br>
+        <small>please</small>
+      </div>
+    </div>
+
+    <!-- Шляпа сайта -->
+    <header>
+      <p class = "Author_name">IGOR GLUSHATOV</p>
+    </header>
+
+    <!-- Меню -->
+    <section>
+      <nav class = "Menu">
+        <ul class = "Top_Menu">
+          <li><a href = "About_author.html">About author</a></li>
+          <li><a href = "Landscapes.html">Landscapes</a>
+            <ul class = "Sub_Menu">
+              <li><a href = "#">2020</a></li>
+              <li><a href = "#">2019</a></li>
+              <li><a href = "#">2018</a></li>
+            </ul>
+          </li>
+          <li><a href = "Portrets.html" id = "Selected">Portraits</a>
+            <ul class = "Sub_Menu">
+              <li><a href = "#">2020</a></li>
+              <li><a href = "#">2019</a></li>
+              <li><a href = "#">2018</a></li>
+            </ul>
+          </li>
+          <li><a href = "Street_photos.html">Street photos</a>
+            <ul class = "Sub_Menu">
+              <li><a href = "#">2020</a></li>
+              <li><a href = "#">2019</a></li>
+              <li><a href = "#">2018</a></li>
+            </ul>
+          </li>
+          <li><a href = "Anything.html">Other</a>
+            <ul class = "Sub_Menu">
+              <li><a href = "#">2020</a></li>
+              <li><a href = "#">2019</a></li>
+              <li><a href = "#">2018</a></li>
+            </ul>
+          </li>
+        </ul>     
+      </nav>
+    </section>
+
+    <!-- Тело с фото -->
+    <section class = "Body">
+      <section>
+          <img data-src="фото/портреты/IMG_1863.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_1962.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_1964.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_1970.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_2303.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_2864.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_3668.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_6818.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_1686.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_9243.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_9346.jpg" class = "image lazy">
+          <img data-src="фото/портреты/IMG_9368.jpg" class = "image lazy">
+        
+      </section>
+    </section>
+
+    <!-- Нижнее меню и ссылки -->
+    <footer>
+      <small>2020 &copy; Designed by Igor Glushatov - Официальный сайт: GLphotos.com +7 (985) 024-31-14</small>
+      <a href="https://vk.com/idiglushatov" target="_blank"><img src="вклого.jpg"></a> 
+      <a href="https://www.instagram.com/nhbgrbkk2001/?hl=ru" target="_blank"><img src="инстлого.png"></a> 
+    </footer>
+  </body>
+</html>

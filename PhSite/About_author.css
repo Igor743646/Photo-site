@@ -1,0 +1,18 @@
+
+.About_author_container {
+	min-height: 900px;
+	padding: 50px;
+}
+
+#Author_photo {
+	float: right; 
+	margin: 0 0 30px 30px;
+}
+
+.Central_photos {
+	text-align: center;
+}
+
+div img {
+	width: 300px;
+}

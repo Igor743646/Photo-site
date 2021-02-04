@@ -1,0 +1,218 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*Разметка*/
+body {
+  background-color: black;
+  /*font: 300 16px/22px "PT Sans", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font: 300 16px/22px "PT Sans";
+  letter-spacing: 3px;
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+a {
+  margin: 0px 15px 0px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-shadow: 1px 1px 2px grey;
+}
+
+/*Прелоадер*/
+#p_prldr{
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+background: black;
+z-index: 30;}
+ 
+.contpre small {font-size:25px;}
+ 
+.contpre{
+width: 250px;
+height: 100px;
+position: absolute;
+left: 50%; top: 50%;
+margin-left:-125px;
+margin-top:-125px;
+color: white;
+font-size:40px;
+letter-spacing:-2px;
+text-align:center;
+line-height:35px;}
+ 
+#p_prldr .svg_anm {
+position: absolute;
+width: 60px;
+height: 60px;
+background: url(pufff.svg) center center no-repeat;
+background-size:41px;    
+margin: -16px 0 0 -16px;}
+
+/* Шапка */
+header {
+  height: inherit;
+  background-color: white;
+  margin: 0 90px 0 90px;
+}
+
+.Author_name {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 40px;
+
+  height: inherit;
+  width: inherit;
+
+  padding: 40px 0 40px 5%;
+}
+
+/* Меню */
+ul li {
+  display: inline;
+}
+
+#Selected {
+  background-color: black;
+  color: white;
+}
+
+/* Тело */
+h2 {
+  font: 'PT Serif';
+  letter-spacing: 0.2px;
+}
+
+.Body {
+  background-color: white;
+  margin: 0px 90px 0px 90px;
+}
+
+.Foto_container {
+  margin: 0px 90px 0px 90px; 
+  background-color: white;
+
+}
+
+/*Обработка картинок с всплывающим окном*/
+.image {
+  background: #F1F1FA;
+  cursor:pointer;
+}
+
+.popup {
+  position: fixed;
+  height:1236px;
+  width:100%;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+.popup_bg {
+  background: rgba(0,0,0,0.4);
+  z-index:1;
+  height:1236px;
+  width:100%;
+}
+
+.popup_img {
+  z-index:2;
+  height: 90%;
+  width: auto;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+
+  height: 35px;
+
+  padding-bottom: 30px;
+  margin: 30px 90px 0px 90px;
+
+  text-align: center;
+  letter-spacing: 0;
+}
+
+footer a {
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+footer a img {
+  margin-left: 10px;
+  height: 30px;
+}
+
+small {
+  font-weight: 400;
+  color: white;
+  float: left;
+
+  height: 100%;
+  margin-top: 5px;
+}
